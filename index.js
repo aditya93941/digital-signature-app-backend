@@ -15,7 +15,7 @@ const SECRET = 'adithya';
 
 // Middleware setup
 app.use(cors({
-  origin: 'https://digital-sign-app.vercel.app/',
+  origin: 'https://digital-sign-app.vercel.app',
   credentials: true,
 }));
 app.use(bodyParser.json());
