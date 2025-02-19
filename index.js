@@ -15,7 +15,7 @@ const SECRET = 'adithya';
 
 // Middleware setup
 app.use(cors({
-  origin: 'http://localhost:3000', // Update this to your client's origin if needed
+  origin: 'https://digital-sign-app.vercel.app/',
   credentials: true,
 }));
 app.use(bodyParser.json());
